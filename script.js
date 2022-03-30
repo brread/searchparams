@@ -1,3 +1,3 @@
 const params = URLSearchParams(window.location.search);
 let p = document.getElementById("p");
-p.textContent = params.getAll();
+p.textContent = "hello";
