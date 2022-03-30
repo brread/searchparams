@@ -1,2 +1,3 @@
 const params = URLSearchParams(window.location.search);
-document.write(params.getAll());
+let p = document.getElementById("p");
+p.textContent = params.getAll();
